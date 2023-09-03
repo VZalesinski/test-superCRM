@@ -1,0 +1,15 @@
+@import "../../styles/colors.scss";
+
+.main__container {
+	margin: 0 auto;
+	padding-top: 20px;
+	max-width: 263px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.list {
+	height: 450px;
+	overflow: auto;
+}

@@ -1,0 +1,21 @@
+@import './colors.scss';
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $entityTag;
+
+  /* Handle on hover */
+  &:hover {
+    background: $grayDark;
+  }
+}

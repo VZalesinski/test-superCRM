@@ -1,0 +1,45 @@
+@import "../../styles/colors.scss";
+
+.header__row {
+  padding: 0 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 140%;
+  color: $green;
+}
+
+.header__buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header__add_button {
+  width: 20px;
+  height: 20px;
+
+  &:hover {
+    opacity: .6;
+  }
+
+  &:active {
+    opacity: 1;
+    box-shadow: 0px 1px 2px 0px #D0DAEB, 0px 0px 2px 0px #EEF4FE;
+  }
+}
+
+.header__items_counter {
+  padding: 1px 6px 2px 6px;
+  height: 20px;
+  border-radius: 4px;
+  border: 1px solid $grayPrimary;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 140%;
+}

@@ -1,0 +1,113 @@
+@import '../../styles/colors.scss';
+
+.container__border {
+  padding: 4px;
+  border-radius: 7px;
+  background: #F4F8FF;
+}
+
+.container {
+  padding: 10px;
+  border-radius: 7px;
+  background: $white;
+  box-shadow: 0px 1px 2px 0px #D0DAEB, 0px 0px 2px 0px #EEF4FE;
+}
+
+.input {
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  margin-right: 8px;
+  float: left;
+}
+
+.title {
+  max-height: 55px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 130%;
+  color: $blue;
+  display: -webkit-inline-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.dates__row {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 140%;
+  color: $green;
+}
+
+.description {
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 140%;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.footer {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tags__row {
+  display: flex;
+  gap: 4px;
+}
+
+.tag1 {
+  padding: 1px 6px 2px 6px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: $entityTag;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 140%;
+  color: $white;
+}
+
+.tag2__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.tag2 {
+  padding: 1px 0px 2px 6px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px 0px 0px 4px;
+  background: $gray20;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  color: $grayDark;
+}
+
+.rectangle {
+  height: 20px;
+}
+
+.avatar {
+  width: 24px;
+  height: 24px;
+}
